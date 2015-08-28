@@ -1,6 +1,7 @@
 "use strict";
 
 function videoCapturePlusDemo(highquality, frontcamera, duration) {
+	alert("onclick to capture");
   window.plugins.videocaptureplus.captureVideo(
       captureSuccess,
       captureError,
@@ -17,6 +18,7 @@ function videoCapturePlusDemo(highquality, frontcamera, duration) {
 }
 
 function captureSuccess(mediaFiles) {
+	alert("media Capture");
   var i, len;
   for (i = 0, len = mediaFiles.length; i < len; i++) {
     var mediaFile = mediaFiles[i];
