@@ -11,8 +11,8 @@ function videoCapturePlusDemo(highquality, frontcamera, duration) {
         highquality: highquality,
         frontcamera: frontcamera,
         // you'll want to sniff the useragent/device and pass the best overlay based on that.. assuming iphone here
-        portraitOverlay: 'www/img/cameraoverlays/overlay-iPhone-portrait.png',
-        landscapeOverlay: 'www/img/cameraoverlays/overlay-iPhone-landscape.png'
+        portraitOverlay: 'img/cameraoverlays/overlay-iPhone-portrait.png',
+        landscapeOverlay: 'img/cameraoverlays/overlay-iPhone-landscape.png'
       }
   );
 }
